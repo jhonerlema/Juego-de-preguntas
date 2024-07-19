@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+body{
+  font-family: 'Nanum Gothic Coding', cursive;
+  background-color:black;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  color: aliceblue;
+  width: 80%;
+  margin: 60px auto;
+  
+}
+h1{
+  text-align: center;
+}
+input{
+  margin-top: 5px;
+  margin-left: 8px;
+  box-shadow: inset 2px 2px 5px 1px rgba(57, 57, 110, 0.856);
+  border-radius: 6px;
+  width: 180px;
+  height: 30px;
+}
+li{
+  list-style: none; /* Remove bullets */
+  margin-left: 10px; 
+  
+}
+button{
+  margin: 0 45%;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.842);
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  box-shadow: inset -4px -4px 8px 1px rgba(117, 117, 117, 0.877);
+  font-weight: bold;
+  color: midnightblue;
+}
+
+#cuentaRegresiva {
+  border: 1px;
+  border-color: red;
+  border-style: solid;
+  color: red;
+  position: fixed;
+  left: 10%;
+  bottom: 50%;
+  background: black;
+  border-radius: 6px;
+}
+.formulario > h3, .formulario > li{
+  background: rgba(192, 192, 192, 0.267);
+  border-radius: 6px;
+  padding: 10px ;
+  
+}
+li{
+  margin-top: 2px;
+  
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responde Rápido</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body onload="inicioJuego()">
+  <h1>Juego de preguntas y respuestas <span id="cuentaRegresiva"></span></h1>
+  <ul class="formulario">
+    <h3>1. ¿Cuál es la palabra clave para declarar una variable en JavaScript?</h3>
+    <li>a) var</li>
+    <li>b) variable</li>
+    <li>c) v</li>
+    <li>d) let</li>
+    <input type="text" id="respuestaUser1" placeholder=" Responder">
+    
+  </ul>
+  <ul class="formulario">
+    <h3>2. ¿Qué tipo de estructura de control se utiliza para ejecutar un bloque de código si una condición es verdadera?</h3>
+    <li>a) if</li>
+    <li>b) else</li>
+    <li>c) for</li>
+    <li>d) switch</li>
+    <input type="text" id="respuestaUser2" placeholder=" Responder">
+    
+  </ul>
+  <ul class="formulario">
+    <h3>3. ¿Qué función se utiliza para mostrar información en una ventana emergente en JavaScript?</h3>
+    <li>a) alert()</li>
+    <li>b) prompt()</li>
+    <li>c) confirm()</li>
+    <li>d) console.log()</li>
+    <input type="text" id="respuestaUser3" placeholder=" Responder">
+   
+  </ul>
+  <ul class="formulario">
+    <h3>4. ¿Cuál de las siguientes no es un tipo de dato en JavaScript?</h3>
+    <li>a) int</li>
+    <li>b) string</li>
+    <li>c) boolean</li>
+    <li>d) array</li>
+    <input type="text" id="respuestaUser4" placeholder=" Responder">
+   
+  </ul>
+  <ul class="formulario">
+    <h3>5. ¿Qué método se utiliza para agregar un elemento al final de un array en JavaScript?</h3>
+    <li>a) push()</li>
+    <li>b) pop()</li>
+    <li>c) shift()</li>
+    <li>d) unshift()</li>
+    <input type="text" id="respuestaUser5" placeholder=" Responder" >
+  </ul>
+  <br>
+  <button onclick="finDeJuego()">Terminé!</button>
+  <br><br>
+  <button onclick="volverAIntentar()">Volver a Intentar</button>
+
+  <audio id="audioFinal">
+    <source src="gameover.mp3" type="audio/mpeg">
+    Sonido no habilitado
+  </audio>
+  <script src="script.js"></script>
+  
+
+</body>
+</html>
